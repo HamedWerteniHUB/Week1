@@ -19,3 +19,17 @@ print(f"Revenue: ${revenue:,.2f}")
 print(f"Costs: ${costs:,.2f}")
 print(f"Profit: ${profit:,.2f}")
 print(f"Profit Margin: {margin:.1f}%")
+
+# Add comment based on profit
+if profit > 5000:
+    comment = "You rock"
+elif profit > 3000:
+    comment = "Excellent"
+elif profit > 2000:
+    comment = "Average"
+elif profit > 1000:
+    comment = "Good"
+else:
+    comment = "Keep trying"
+
+print(f"Comment: {comment}")
