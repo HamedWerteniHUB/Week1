@@ -1,22 +1,19 @@
-'''Business Profit CalculatorCalculates profit and margin percentagefrom revenue and cost data’’’
+# Business Profit Calculator
+# Calculates profit and margin percentage from revenue and cost data
 
 # Get revenue from user
-
 revenue = float(input("Enter total revenue: $"))
-# Get costs from user  
 
+# Get costs from user
 costs = float(input("Enter total costs: $"))
 
 # Calculate profit
-
-profit = revenue – costs
+profit = revenue - costs  # use normal minus sign
 
 # Calculate profit margin percentage
-
 margin = (profit / revenue) * 100
 
 # Display results
-
 print("\n--- Financial Summary ---")
 print(f"Revenue: ${revenue:,.2f}")
 print(f"Costs: ${costs:,.2f}")
